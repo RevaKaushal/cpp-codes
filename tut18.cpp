@@ -6,6 +6,7 @@
     //structures had limitATIONS --> members are public
     //                           --> no methods
     //classes --> structures + more 
+    //        --> USER DEFINED DATA TYPE 
     //        --> can have methods and properties
     //        --> can make things public and private
     //        --> can declare objects along with class declarartion like

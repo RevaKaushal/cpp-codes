@@ -5,13 +5,14 @@ class complex; //forward declaration --> of class for class using it beforehand
 
 class calculator{
    public:
-    int sumreal(complex,complex);
+    int sumreal(complex,complex); //--> complex is user defined data type aka class
     int sumcomplex(complex,complex);
 };
 
-class complex{  //friend-->allowance for usage of PRIVATE MEMBERS of a class to another NON MEMBER function or class
+class complex{  
   int a,b;  
-  // Individually declaring functions as friends
+//FRIEND -->allowance for usage of PRIVATE MEMBERS of a class to another NON MEMBER function or class
+ // Individually declaring functions as friends
     // friend int Calculator ::sumreal(Complex, Complex);
     // friend int Calculator ::sumComplex(Complex, Complex);
 
@@ -35,14 +36,14 @@ int calculator::sumcomplex(complex o1, complex o2){
 }
 
 int main(){
-    complex c1,c2;
+    complex c1,c2;       //c1,c2 objects of class complex
     c1.setnumber(1,4);
     c1.printnumber();
 
     c2.setnumber(4,5);
     c2.printnumber();
     
-    calculator calc;
+    calculator calc;    //calc is object of class clculator
     int r= calc.sumreal(c1,c2);
     cout<<"the real sum is "<<r<<endl;
     int c= calc.sumcomplex(c1,c2); 
