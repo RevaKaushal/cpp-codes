@@ -2,7 +2,7 @@
 using namespace std;
 
 class complex{
-  int a,b;
+  int a,b; //private members ki hi value set hoti hai 
   friend complex sumcomplex(complex ,complex);
   public:
    void setnumber(int x,int y){

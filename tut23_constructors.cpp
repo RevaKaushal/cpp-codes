@@ -1,5 +1,5 @@
 
-// CONSTRUCTOR --> special MEMBER function with the same name as of the class.
+// CONSTRUCTOR --> special MEMBER function with the SAME NAME AS OF CLASS
 //              --> It is automatically invoked whenever an object is created
 //              --> there are THREE types of constructors
 //              --> Constructors do not return values; hence they do not have a return type.

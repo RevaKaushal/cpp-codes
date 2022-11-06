@@ -17,7 +17,7 @@ class dist{
   friend void distance(dist,dist);
 };
 
-void distance(dist d1,dist d2){
+void distance(dist d1,dist d2){   //dist is used as datatype(x,ys)
     float distt= (sqrt((pow((d1.x-d2.x),2))+(pow((d1.y-d2.y),2))));
     cout<<"the distance between two point is "<<distt;
 }
