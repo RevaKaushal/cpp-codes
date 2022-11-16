@@ -6,8 +6,7 @@ class Base{
   public:
    int data2;
    void setdata(){
-    cout<<"value of data1 is ";
-    cin>>data1;
+    data1= 10;
     data2= 20;
    }
    int getdata1(){ //clever way to get private member of the class
